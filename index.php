@@ -9,7 +9,7 @@
     <?php echo '<title>'.$config["title"].'</title>'?>
     <?php echo '<link rel="shortcut icon" href='.$config["img_custom"].'icon.ico">'?>
     <?php echo '<link rel="stylesheet" href="'.$config["css"].'bootstrap/bootstrap.min.css?v=1">'?>         
-    <?php echo '<link rel="stylesheet" href="'.$config["css"].'styles.css?v=22">'?>         
+    <?php echo '<link rel="stylesheet" href="'.$config["css"].'styles.css?v=21">'?>         
 </head>
 <body> 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
