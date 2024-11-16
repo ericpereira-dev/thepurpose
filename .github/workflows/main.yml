@@ -1,22 +1,18 @@
-name: Deploy usando SCP
-
-on:
- workflow_dispatch:
-
+name: scp files to hostinger
+on: [push]
 jobs:
-  deploy:
+
+  build:
+    name: Build
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout do código
-      uses: actions/checkout@v3
-
-    - name: Transferir somente o conteúdo da pasta
-      uses: appleboy/scp-action@v0.1.3
+    - uses: actions/checkout@v4
+    - name: copy file via ssh key
+      uses: appleboy/scp-action@v0.1.7
       with:
         host: ${{ secrets.HOSTINGER_HOST }}
         username: ${{ secrets.HOSTINGER_USER }}
         password: ${{ secrets.HOSTINGER_PASSWORD}}
         port: 65002
-        target: /home/u331460685/domains/app.thepurpose.com.br/public_html/
         source: "."
+        target: /home/u331460685/domains/app.thepurpose.com.br/public_html/
