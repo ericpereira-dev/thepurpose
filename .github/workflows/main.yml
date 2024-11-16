@@ -19,4 +19,4 @@ jobs:
         password: ${{ secrets.HOSTINGER_PASSWORD}}
         port: 65002
         target: /home/u331460685/domains/app.thepurpose.com.br/public_html/
-        source: *
+        source: "."
