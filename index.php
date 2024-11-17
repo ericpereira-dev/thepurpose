@@ -28,19 +28,19 @@
             </a>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
               <li>
-                <?php echo '<a class="dropdown-item" href="'.$config["source"].'app/thepurpose/view/adm">ADM</a>'?>
+                <?php echo '<a class="dropdown-item" href="'.$config["source"].'view/adm">ADM</a>'?>
               </li>
               <li>
                 <hr class="dropdown-divider">
               </li>
               <li>
-              <?php echo '<a class="dropdown-item" href="'.$config["source"].'app/thepurpose/view/person">Projeto de Vida</a>'?>                
+              <?php echo '<a class="dropdown-item" href="'.$config["source"].'view/person">Projeto de Vida</a>'?>                
               </li>   
               <li>
                 <hr class="dropdown-divider">
               </li>
               <li>
-              <?php echo '<a class="dropdown-item" href="'.$config["source"].'app/thepurpose/view/employer">Empregador</a>'?>  
+              <?php echo '<a class="dropdown-item" href="'.$config["source"].'view/employer">Empregador</a>'?>  
               </li>                 
             </ul>
           </li>                      
