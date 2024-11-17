@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="gestão, programa, software, gestão">
+    <meta name="keywords" content="gestão, programa, software, gestão, p">
     <?php echo '<title>'.$config["title"].'</title>'?>
     <?php echo '<link rel="shortcut icon" href='.$config["img_custom"].'icon.ico">'?>
     <?php echo '<link rel="stylesheet" href="'.$config["css"].'bootstrap/bootstrap.min.css?v=1">'?>         
