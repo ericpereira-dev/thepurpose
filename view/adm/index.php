@@ -87,7 +87,7 @@
   <?php echo '<script src="'.$config["js"].'core/request.js?v=8"></script>'?>           
   <?php echo '<script src="'.$config["js"].'core/functions.js?v=4"></script>'?>           
   <?php echo '<script src="'.$config["js"].'core/public.js?v=5"></script>'?>               
-  <script> vg_team='adm'</script>
+  <?php echo '<script> var vg_team ="'.$config["team"].'"</script>'?>    
   <?php echo '<script> var config ={api: "'.$config["api"].'",img: "'.$config["img"].'"}</script>'?>  
   <?php echo '<script src="'.$config["js"].'bootstrap/bootstrap.min.js?v=1"></script>'?>  
   <!-- fim obrigatório -->
