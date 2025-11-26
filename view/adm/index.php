@@ -36,8 +36,19 @@
               <li onclick=personQuestionView()>
                 <a class="dropdown-item" href="#">Perguntas PV</a>
               </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>                            
+              <li onclick=employerCategoryView()>
+                <a class="dropdown-item" href="#">Categoria Employer</a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>              
+              <li onclick=employerQuestionView()>
+                <a class="dropdown-item" href="#">Perguntas Employer</a>
+              </li>              
             </ul>
-          </li>   
           <li class="nav-item dropdown">
             <?php echo '<a class="nav-link dropdown-toggle" href="'.$config["source"].'" id="navbarDropdown" role="button" aria-expanded="false">App</a>'?>
           </li>                                                
@@ -88,7 +99,7 @@
   <?php echo '<script src="'.$config["js"].'core/functions.js?v=4"></script>'?>           
   <?php echo '<script src="'.$config["js"].'core/public.js?v=5"></script>'?>               
   <?php echo '<script> var vg_team ="'.$config["team"].'"</script>'?>    
-  <?php echo '<script> var config ={api: "'.$config["api"].'",img: "'.$config["img"].'"}</script>'?>  
+  <?php echo '<script> var config ={api: "'.$config["api"].'",img: "'.$config["img"].'"}</script>'?>;  
   <?php echo '<script src="'.$config["js"].'bootstrap/bootstrap.min.js?v=1"></script>'?>  
   <!-- fim obrigatório -->
          
@@ -97,7 +108,10 @@
   <?php echo '<script src="'.$config["js"].'call/person.category.js?v=3"></script>'?>                 
   <?php echo '<script src="'.$config["js"].'call/person.category.search.js?v=2"></script>'?>             
   <?php echo '<script src="'.$config["js"].'call/person.question.js?v=1"></script>'?>               
-  <?php echo '<script src="'.$config["js"].'call/person.question.search.js?v=1"></script>'?>                   
+  <?php echo '<script src="'.$config["js"].'call/person.question.search.js?v=1"></script>'?>             
+  <?php echo '<script src="'.$config["js"].'call/employer.category.js?v=1"></script>'?>                 
+  <?php echo '<script src="'.$config["js"].'call/employer.category.search.js?v=1"></script>'?>               
+  
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
